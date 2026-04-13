@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ahmed Rami</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><span>PORTFOLIO</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#social">Social</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-container">
+            <div class="profile-wrapper">
+                <img src="assets/dev/pro.jpg" alt="Ahmed Rami" class="profile-img">
+            </div>
+            <h1>Hi, I'm <span class="highlight">Ahmed Rami</span></h1>
+            <h3>Front-End Developer | Content Creator</h3>
+            <p>I build clean web interfaces and create engaging digital content.</p>
+            <a href="#projects" class="cta-btn">View My Work</a>
+        </div>
+    </header>
+
+    <section id="skills" class="section">
+        <h2 class="title">My Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <div class="skill-info"><span>HTML / CSS</span><span>95%</span></div>
+                <div class="progress-bar"><div class="fill" data-width="95%"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>JavaScript</span><span>60%</span></div>
+                <div class="progress-bar"><div class="fill" data-width="60%"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Python</span><span>90%</span></div>
+                <div class="progress-bar"><div class="fill" data-width="90%"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Video Editing</span><span>50%</span></div>
+                <div class="progress-bar"><div class="fill" data-width="50%"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Photo Editing</span><span>70%</span></div>
+                <div class="progress-bar"><div class="fill" data-width="70%"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>MS Excel</span><span>30%</span></div>
+                <div class="progress-bar"><div class="fill" data-width="30%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section dark-bg">
+        <h2 class="title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="card">
+                <img src="assets/wavex design/logo.svg" alt="Wavex">
+                <div class="card-content">
+                    <h3>Wavex Platform</h3>
+                    <p>A responsive front-end project built with modern tools.</p>
+                    <div class="card-links">
+                        <a href="https://wavex-merged-iota.vercel.app/" target="_blank"><i class="fas fa-link"></i> Wavex</a>
+                        <a href="https://github.com/ahmedramy000/Wavex-merged" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2 class="title">Creative Gallery</h2>
+        
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="photo">Photos</button>
+            <button class="filter-btn" data-filter="video">Videos</button>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item photo">
+                <img src="assets/wavex design/logo-icon.svg" alt="Photo Design">
+                <div class="item-overlay">
+                    <h3>Media Design</h3>
+                    <p>Photo Editing</p>
+                </div>
+            </div>
+            <div class="gallery-item video">
+                <div class="video-placeholder">
+                    <i class="fas fa-play-circle"></i>
+                    <h3>Content Video</h3>
+                    <p>Montage Work</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="social" class="section dark-bg">
+        <h2 class="title">Connect With Me</h2>
+        <div class="social-links">
+            <a href="https://whatsapp.com/channel/0029VbBkhw9J3jv0kislHc1Z" class="social-icon wa" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/a.h.m.e.d.r.a.m.y" class="social-icon ig" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@programming036" class="social-icon tt" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/share/17XcDyETQf/" class="social-icon fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://youtube.com/@programsi" class="social-icon yt" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ahmed Rami. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
